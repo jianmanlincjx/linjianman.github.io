@@ -1,0 +1,202 @@
+---
+---
+
+/* Homepage sections inspired by portfolio-style academic sites */
+.jm-home {
+  .jm-lead {
+    font-size: 1.05rem;
+    line-height: 1.65;
+    margin-bottom: 1.25rem;
+  }
+
+  .jm-inline-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1rem;
+    margin: 0 0 1.5rem;
+    padding: 0;
+    list-style: none;
+    font-size: 0.95rem;
+
+    a {
+      text-decoration: none;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+
+      &:hover {
+        border-bottom-color: currentColor;
+      }
+    }
+  }
+
+  .jm-section {
+    margin-top: 2.25rem;
+    padding-top: 0.5rem;
+    border-top: 1px solid #e8e8e8;
+  }
+
+  .jm-section-title {
+    margin-bottom: 0.75rem;
+    font-size: 1.35rem;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+  }
+
+  .jm-news {
+    margin: 0;
+    padding-left: 1.1rem;
+
+    li {
+      margin-bottom: 0.45rem;
+    }
+  }
+
+  .jm-works {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.25rem;
+    margin-top: 0.5rem;
+  }
+
+  .jm-work-card {
+    border: 1px solid #e8e8e8;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+
+    &:hover {
+      box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);
+      transform: translateY(-2px);
+    }
+  }
+
+  .jm-work-thumb {
+    display: block;
+    aspect-ratio: 16 / 10;
+    background: #f5f5f5;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+  }
+
+  .jm-work-body {
+    padding: 0.9rem 1rem 1.1rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+
+  .jm-work-title {
+    margin: 0;
+    font-size: 1.05rem;
+    line-height: 1.35;
+    font-weight: 600;
+  }
+
+  .jm-work-meta {
+    margin: 0;
+    font-size: 0.88rem;
+    color: #555;
+    line-height: 1.4;
+  }
+
+  .jm-work-links {
+    margin-top: auto;
+    padding-top: 0.5rem;
+    font-size: 0.9rem;
+
+    a {
+      margin-right: 0.65rem;
+      white-space: nowrap;
+    }
+  }
+
+  .jm-badge {
+    display: inline-block;
+    font-size: 0.72rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    padding: 0.15rem 0.45rem;
+    border-radius: 4px;
+    background: #eef4ff;
+    color: #1a3a6e;
+    margin-right: 0.35rem;
+  }
+
+  .jm-timeline {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+      margin-bottom: 1rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid #eee;
+
+      &:last-child {
+        border-bottom: 0;
+        margin-bottom: 0;
+        padding-bottom: 0;
+      }
+    }
+  }
+
+  .jm-tl-title {
+    font-weight: 600;
+    margin: 0 0 0.15rem;
+  }
+
+  .jm-tl-sub {
+    margin: 0;
+    font-size: 0.92rem;
+    color: #555;
+  }
+
+  .jm-tl-date {
+    float: right;
+    font-size: 0.88rem;
+    color: #666;
+    font-weight: 500;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .jm-home {
+    .jm-section {
+      border-top-color: #3a3a3a;
+    }
+
+    .jm-work-card {
+      border-color: #3a3a3a;
+      background: #1e1e1e;
+    }
+
+    .jm-work-thumb {
+      background: #2a2a2a;
+    }
+
+    .jm-work-meta,
+    .jm-tl-sub,
+    .jm-tl-date {
+      color: #b0b0b0;
+    }
+
+    .jm-badge {
+      background: #2a3550;
+      color: #c8d6f5;
+    }
+
+    .jm-timeline li {
+      border-bottom-color: #333;
+    }
+  }
+}

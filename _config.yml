@@ -23,7 +23,7 @@ repository               : "Jianman-lin/Jianman-lin.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "" # Add e.g. profile.jpg under /images/ when ready
+  avatar           : "Jianman-lin.jpg"
   name             : "Jianman Lin"
   pronouns         :
   bio              : "M.Eng. in Electronic Information @ SCUT. Research interests: computer vision, generative AI, controllable image synthesis."

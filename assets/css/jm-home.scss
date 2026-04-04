@@ -58,8 +58,9 @@
   gap: clamp(1.25rem, 3vw, 2.75rem);
   align-items: start;
   margin-top: 0.5rem;
-  font-size: 0.98rem;
-  line-height: 1.7;
+  font-size: 1rem;
+  line-height: 1.72;
+  color: #2f3742;
 }
 
 .jm-sidebar {
@@ -68,17 +69,22 @@
 }
 
 .jm-profile-card {
-  border-right: 1px solid #ececec;
-  padding-right: 1.5rem;
+  padding: 1.5rem 1.35rem;
+  border: 1px solid #ececec;
+  border-radius: 20px;
+  background: linear-gradient(180deg, #ffffff 0%, #fbfcfe 100%);
+  box-shadow: 0 14px 36px rgba(31, 45, 61, 0.06);
 }
 
 .jm-avatar {
-  width: 92px;
-  height: 92px;
+  width: 132px;
+  height: 132px;
   border-radius: 50%;
   object-fit: cover;
   display: block;
-  margin-bottom: 1rem;
+  margin-bottom: 1.1rem;
+  border: 3px solid #fff;
+  box-shadow: 0 8px 24px rgba(31, 45, 61, 0.12);
 }
 
 .jm-avatar--placeholder {
@@ -93,14 +99,14 @@
 
 .jm-name {
   margin: 0 0 0.6rem;
-  font-size: 1.8rem;
+  font-size: 2rem;
   line-height: 1.2;
 }
 
 .jm-role {
   margin: 0 0 1rem;
   color: #505a66;
-  font-size: 0.96rem;
+  font-size: 0.98rem;
   line-height: 1.6;
 }
 
@@ -126,11 +132,19 @@
 
 .jm-block {
   margin-bottom: 2rem;
+  padding-bottom: 1.7rem;
+  border-bottom: 1px solid #eef1f5;
+}
+
+.jm-block:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: 0;
 }
 
 .jm-block-title {
-  margin: 0 0 0.9rem;
-  font-size: 1.9rem;
+  margin: 0 0 1rem;
+  font-size: 1.7rem;
   line-height: 1.2;
   font-weight: 700;
   letter-spacing: -0.02em;
@@ -138,6 +152,7 @@
 
 .jm-main p {
   margin: 0 0 0.95rem;
+  font-size: 1rem;
 }
 
 .jm-news-list {
@@ -146,7 +161,9 @@
 }
 
 .jm-news-list li {
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.55rem;
+  font-size: 0.98rem;
+  line-height: 1.65;
 }
 
 .jm-news-list span {
@@ -163,21 +180,25 @@
 }
 
 .jm-pub-group {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.85rem;
 }
 
 .jm-pub-group-title {
-  margin-bottom: 0.9rem;
-  font-size: 1.08rem;
+  display: inline-block;
+  margin-bottom: 1rem;
+  padding: 0.18rem 0.72rem;
+  font-size: 1rem;
   font-weight: 700;
   color: #2d3640;
+  background: #f5f7fb;
+  border-radius: 999px;
 }
 
 .jm-pub-item {
   display: grid;
   grid-template-columns: 220px minmax(0, 1fr);
   gap: 1.1rem;
-  margin-bottom: 1.35rem;
+  margin-bottom: 1.45rem;
   align-items: start;
 }
 
@@ -213,21 +234,21 @@
 
 .jm-pub-title {
   margin: 0 0 0.35rem;
-  font-size: 1.08rem;
-  line-height: 1.4;
+  font-size: 1.12rem;
+  line-height: 1.45;
   font-weight: 600;
 }
 
 .jm-pub-meta {
   margin: 0 0 0.35rem;
   color: #4f5864;
-  font-size: 0.95rem;
+  font-size: 0.96rem;
 }
 
 .jm-pub-venue-line {
   margin: 0 0 0.35rem;
   color: #4f5864;
-  font-size: 0.95rem;
+  font-size: 0.96rem;
   line-height: 1.55;
 }
 
@@ -264,6 +285,11 @@
 
 .jm-simple-item {
   margin-bottom: 1rem;
+  padding: 1.25rem 1.3rem;
+  border: 1px solid #eceff4;
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 0 8px 24px rgba(31, 45, 61, 0.04);
 }
 
 .jm-simple-head {
@@ -276,14 +302,14 @@
 
 .jm-simple-head span {
   color: #68717d;
-  font-size: 0.92rem;
+  font-size: 0.95rem;
   white-space: nowrap;
 }
 
 .jm-simple-sub,
 .jm-simple-note {
   color: #4f5864;
-  font-size: 0.95rem;
+  font-size: 0.97rem;
 }
 
 .jm-simple-note {
@@ -297,21 +323,54 @@
 }
 
 .jm-exp-projects {
-  margin: 0.75rem 0 0;
+  margin: 0.95rem 0 0;
   padding: 0;
   list-style: none;
 }
 
-.jm-exp-projects > li {
-  margin-bottom: 1.1rem;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid #ececec;
+.jm-exp-project-item {
+  position: relative;
+  display: grid;
+  grid-template-columns: 18px minmax(0, 1fr);
+  gap: 0.9rem;
+  margin-bottom: 1rem;
 }
 
-.jm-exp-projects > li:last-child {
+.jm-exp-project-item:last-child {
   margin-bottom: 0;
-  padding-bottom: 0;
-  border-bottom: 0;
+}
+
+.jm-exp-project-marker {
+  position: relative;
+  width: 18px;
+}
+
+.jm-exp-project-marker::before {
+  content: "";
+  position: absolute;
+  top: 0.38rem;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  background: #2b6cb0;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 0 0 4px rgba(43, 108, 176, 0.12);
+}
+
+.jm-exp-project-item:not(:last-child) .jm-exp-project-marker::after {
+  content: "";
+  position: absolute;
+  top: 1rem;
+  bottom: -0.9rem;
+  left: 50%;
+  width: 1px;
+  background: linear-gradient(180deg, rgba(43, 108, 176, 0.28), rgba(43, 108, 176, 0.08));
+  transform: translateX(-50%);
+}
+
+.jm-exp-project-content {
+  min-width: 0;
 }
 
 .jm-exp-project-head {
@@ -320,19 +379,19 @@
   justify-content: space-between;
   align-items: baseline;
   gap: 0.5rem 1rem;
-  margin-bottom: 0.35rem;
+  margin-bottom: 0.3rem;
 }
 
 .jm-exp-project-head span {
-  font-size: 0.9rem;
+  font-size: 0.94rem;
   color: #68717d;
-  font-weight: 500;
+  font-weight: 600;
   white-space: nowrap;
 }
 
 .jm-exp-project-desc {
   margin: 0;
-  font-size: 0.96rem;
+  font-size: 0.98rem;
   line-height: 1.65;
   color: #4f5864;
 }
@@ -348,10 +407,7 @@
   }
 
   .jm-profile-card {
-    border-right: 0;
-    border-bottom: 1px solid #ececec;
-    padding-right: 0;
-    padding-bottom: 1.25rem;
+    padding: 1.3rem 1.15rem;
   }
 
   .jm-pub-item {
@@ -366,11 +422,11 @@
 
 @media (max-width: 640px) {
   .jm-block-title {
-    font-size: 1.55rem;
+    font-size: 1.45rem;
   }
 
   .jm-name {
-    font-size: 1.5rem;
+    font-size: 1.65rem;
   }
 
   .jm-pub-links-inline {
@@ -391,6 +447,16 @@
     display: block;
     margin-top: 0.15rem;
   }
+
+  .jm-exp-project-item {
+    grid-template-columns: 14px minmax(0, 1fr);
+    gap: 0.7rem;
+  }
+
+  .jm-avatar {
+    width: 108px;
+    height: 108px;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -399,8 +465,15 @@
   }
 
   .jm-profile-card,
-  .jm-pub-thumb {
+  .jm-pub-thumb,
+  .jm-simple-item,
+  .jm-block {
     border-color: #343a40;
+  }
+
+  .jm-homepage,
+  .jm-pub-group-title {
+    color: #e6ebf2;
   }
 
   .jm-avatar--placeholder {
@@ -423,9 +496,20 @@
     background: #1c1f24;
   }
 
+  .jm-profile-card,
+  .jm-simple-item {
+    background: #171b21;
+    box-shadow: none;
+  }
+
   .jm-pub-thumb--lite {
     background: linear-gradient(145deg, #1e2a38, #252d38);
     color: #b8d4f0;
+  }
+
+  .jm-pub-group-title {
+    background: #20252d;
+    color: #d8e0eb;
   }
 
   .jm-ccf {
@@ -433,12 +517,17 @@
     background: #2a3038;
   }
 
-  .jm-exp-projects > li {
-    border-bottom-color: #343a40;
-  }
-
   .jm-exp-project-head span,
   .jm-exp-project-desc {
     color: #afb6bf;
+  }
+
+  .jm-exp-project-marker::before {
+    background: #6aa6ff;
+    box-shadow: 0 0 0 4px rgba(106, 166, 255, 0.14);
+  }
+
+  .jm-exp-project-item:not(:last-child) .jm-exp-project-marker::after {
+    background: linear-gradient(180deg, rgba(106, 166, 255, 0.28), rgba(106, 166, 255, 0.08));
   }
 }

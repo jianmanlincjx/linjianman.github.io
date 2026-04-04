@@ -154,33 +154,42 @@ redirect_from:
 
     <section class="jm-block" id="experience">
       <h2 class="jm-block-title">Experience</h2>
-      <div class="jm-simple-item">
+      <div class="jm-simple-item jm-simple-item--experience">
         <div class="jm-simple-head">
           <strong>Algorithm Research Intern, X-Era AI</strong>
           <span>Jan. 2024 – Present</span>
         </div>
         <div class="jm-simple-sub">Guangzhou, China</div>
         <ul class="jm-exp-projects">
-          <li>
-            <div class="jm-exp-project-head">
-              <strong>Digital Human Live Streaming</strong>
-              <span>2024.01 – 2024.12</span>
+          <li class="jm-exp-project-item">
+            <div class="jm-exp-project-marker" aria-hidden="true"></div>
+            <div class="jm-exp-project-content">
+              <div class="jm-exp-project-head">
+                <strong>Digital Human Live Streaming</strong>
+                <span>2024.01 – 2024.12</span>
+              </div>
+              <p class="jm-exp-project-desc">Core algorithm lead for a production-grade digital human system; managed the end-to-end pipeline from data engineering and model design to seamless deployment.</p>
             </div>
-            <p class="jm-exp-project-desc">Core algorithm lead for a production-grade digital human system; managed the end-to-end pipeline from data engineering and model design to seamless deployment.</p>
           </li>
-          <li>
-            <div class="jm-exp-project-head">
-              <strong>Intelligent Interior Design &amp; VLM</strong>
-              <span>2025.01 – 2026.03</span>
+          <li class="jm-exp-project-item">
+            <div class="jm-exp-project-marker" aria-hidden="true"></div>
+            <div class="jm-exp-project-content">
+              <div class="jm-exp-project-head">
+                <strong>Intelligent Interior Design &amp; VLM</strong>
+                <span>2025.01 – 2026.03</span>
+              </div>
+              <p class="jm-exp-project-desc">Developed a VLM-based floor plan parser achieving 98% accuracy; architected an AI Agent for automated furniture layout and user-intent alignment.</p>
             </div>
-            <p class="jm-exp-project-desc">Developed a VLM-based floor plan parser achieving 98% accuracy; architected an AI Agent for automated furniture layout and user-intent alignment.</p>
           </li>
-          <li>
-            <div class="jm-exp-project-head">
-              <strong>Embodied AI</strong>
-              <span>2026.03 – Present</span>
+          <li class="jm-exp-project-item">
+            <div class="jm-exp-project-marker" aria-hidden="true"></div>
+            <div class="jm-exp-project-content">
+              <div class="jm-exp-project-head">
+                <strong>Embodied AI</strong>
+                <span>2026.03 – Present</span>
+              </div>
+              <p class="jm-exp-project-desc">Serving as a core researcher focused on the intersection of multimodal perception and robotic control for Embodied Intelligence.</p>
             </div>
-            <p class="jm-exp-project-desc">Serving as a core researcher focused on the intersection of multimodal perception and robotic control for Embodied Intelligence.</p>
           </li>
         </ul>
       </div>

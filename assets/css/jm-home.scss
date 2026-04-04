@@ -189,6 +189,22 @@
   height: auto;
 }
 
+.jm-pub-thumb--lite {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 118px;
+  text-decoration: none;
+  font-weight: 700;
+  color: #1a4d7a;
+  background: linear-gradient(145deg, #e8f0fa, #f4f7fb);
+}
+
+.jm-pub-thumb-label {
+  font-size: 1rem;
+  letter-spacing: 0.02em;
+}
+
 .jm-pub-title {
   margin: 0 0 0.35rem;
   font-size: 1.08rem;
@@ -295,7 +311,8 @@
     grid-template-columns: 1fr;
   }
 
-  .jm-pub-thumb {
+  .jm-pub-thumb,
+  .jm-pub-thumb--lite {
     max-width: 320px;
   }
 }
@@ -357,6 +374,11 @@
 
   .jm-pub-thumb {
     background: #1c1f24;
+  }
+
+  .jm-pub-thumb--lite {
+    background: linear-gradient(145deg, #1e2a38, #252d38);
+    color: #b8d4f0;
   }
 
   .jm-ccf {

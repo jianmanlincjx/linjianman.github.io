@@ -67,6 +67,7 @@ redirect_from:
             <p class="jm-pub-venue-line">
               <strong>IEEE Transactions on Image Processing (TIP)</strong>, 2025 · <span class="jm-ccf">CCF-A</span>
               <span class="jm-pub-links-inline">
+                <a href="https://arxiv.org/pdf/2509.01405" target="_blank" rel="noopener noreferrer">Paper</a>
                 <a href="https://github.com/jianmanlincjx" target="_blank" rel="noopener noreferrer">Code</a>
                 <a href="{{ '/publications/neural-scene-designer-tip/' | relative_url }}">Page</a>
               </span>
@@ -84,6 +85,7 @@ redirect_from:
             <p class="jm-pub-venue-line">
               <strong>Under review</strong> · <span class="jm-ccf">IJCV (CCF-A)</span>
               <span class="jm-pub-links-inline">
+                <a href="https://arxiv.org/pdf/2505.20914" target="_blank" rel="noopener noreferrer">Paper</a>
                 <a href="https://github.com/jianmanlincjx" target="_blank" rel="noopener noreferrer">Code</a>
                 <a href="{{ '/publications/ijcv-2025-dagd/' | relative_url }}">Page</a>
               </span>
@@ -105,6 +107,7 @@ redirect_from:
             <p class="jm-pub-venue-line">
               <strong>CVPR 2024</strong> · Highlight (Top 2.8%) · <span class="jm-ccf">CCF-A</span>
               <span class="jm-pub-links-inline">
+                <a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Chen_Learning_Adaptive_Spatial_Coherent_Correlations_for_Speech-Preserving_Facial_Expression_Manipulation_CVPR_2024_paper.pdf" target="_blank" rel="noopener noreferrer">Paper</a>
                 <a href="https://github.com/jianmanlincjx" target="_blank" rel="noopener noreferrer">Code</a>
                 <a href="{{ '/publications/cvpr-2024-asccl/' | relative_url }}">Page</a>
               </span>
@@ -122,8 +125,30 @@ redirect_from:
             <p class="jm-pub-venue-line">
               <strong>International Journal of Computer Vision (IJCV)</strong>, 2025 · <span class="jm-ccf">CCF-A</span>
               <span class="jm-pub-links-inline">
+                <a href="https://arxiv.org/pdf/2504.05672" target="_blank" rel="noopener noreferrer">Paper</a>
                 <a href="https://github.com/jianmanlincjx" target="_blank" rel="noopener noreferrer">Code</a>
                 <a href="{{ '/publications/ijcv-2025-cdrl/' | relative_url }}">Page</a>
+              </span>
+            </p>
+          </div>
+        </article>
+      </div>
+
+      <div class="jm-pub-group">
+        <div class="jm-pub-group-title">AI4Science &amp; Interdisciplinary</div>
+
+        <article class="jm-pub-item">
+          <a class="jm-pub-thumb jm-pub-thumb--lite" href="https://aiche.onlinelibrary.wiley.com/doi/abs/10.1002/aic.18924" target="_blank" rel="noopener noreferrer">
+            <span class="jm-pub-thumb-label">AIChE&nbsp;J.</span>
+          </a>
+          <div class="jm-pub-body">
+            <h3 class="jm-pub-title">Multiscale Exploration of Informative Latent Features for Accurate Deep Eutectic Solvents Viscosity Prediction</h3>
+            <p class="jm-pub-meta"><strong>Jianman Lin</strong>, et al.</p>
+            <p class="jm-pub-venue-line">
+              <strong>AIChE Journal</strong> — flagship journal of the American Institute of Chemical Engineers; <em>top-tier in chemical engineering</em>.
+              <span class="jm-pub-links-inline">
+                <a href="https://aiche.onlinelibrary.wiley.com/doi/abs/10.1002/aic.18924" target="_blank" rel="noopener noreferrer">Paper</a>
+                <a href="{{ '/publications/aiche-des-viscosity-2025/' | relative_url }}">Page</a>
               </span>
             </p>
           </div>

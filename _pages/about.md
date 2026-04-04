@@ -58,7 +58,7 @@ redirect_from:
         <div class="jm-pub-group-title">Controllable Image Editing</div>
 
         <article class="jm-pub-item">
-          <a class="jm-pub-thumb" href="https://arxiv.org/pdf/2509.01405" target="_blank" rel="noopener noreferrer">
+          <a class="jm-pub-thumb" href="https://arxiv.org/pdf/2509.01405?" target="_blank" rel="noopener noreferrer">
             <img src="{{ '/images/papers/TIP_2025_NSD.png' | relative_url }}" alt="TIP 2025 NSD" loading="lazy">
           </a>
           <div class="jm-pub-body">
@@ -75,7 +75,7 @@ redirect_from:
         </article>
 
         <article class="jm-pub-item">
-          <a class="jm-pub-thumb" href="https://arxiv.org/pdf/2505.20914" target="_blank" rel="noopener noreferrer">
+          <a class="jm-pub-thumb" href="https://arxiv.org/pdf/2505.20914?" target="_blank" rel="noopener noreferrer">
             <img src="{{ '/images/papers/underreview_2026_DAGD.png' | relative_url }}" alt="DAGD" loading="lazy">
           </a>
           <div class="jm-pub-body">
@@ -113,7 +113,7 @@ redirect_from:
         </article>
 
         <article class="jm-pub-item">
-          <a class="jm-pub-thumb" href="https://arxiv.org/pdf/2504.05672" target="_blank" rel="noopener noreferrer">
+          <a class="jm-pub-thumb" href="https://arxiv.org/pdf/2504.05672?" target="_blank" rel="noopener noreferrer">
             <img src="{{ '/images/papers/IJCV_2025_CDRL.png' | relative_url }}" alt="IJCV 2025 CDRL" loading="lazy">
           </a>
           <div class="jm-pub-body">
